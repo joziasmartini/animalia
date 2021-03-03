@@ -1,7 +1,11 @@
 <template>
   <div>
-    <h1>{{ titulo }}</h1>
-    <img :src="foto.url" :alt="foto.titulo">
+    <h1>{{ titulo }}</h1>    
+    <ul>
+      <li v-for="foto of fotos">
+        <img :src="foto.url" :alt="foto.titulo">
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -10,15 +14,23 @@ export default {
   data () {
     return {
       titulo: 'Alurapic',
-      foto: {
-        url: 'https://source.unsplash.com/random',
-        titulo: 'Unsplash Image'
-      }
+      fotos: [
+        {
+          url: 'https://source.unsplash.com/random',
+          titulo: 'Unsplash Image'
+        },
+        {
+          url: 'https://source.unsplash.com/random',
+          titulo: 'Unsplash Image'
+        }
+      ]
     }
   }
 }
 </script>
 
 <style>
-
+  img {
+    max-width: 400px;
+  }
 </style>
