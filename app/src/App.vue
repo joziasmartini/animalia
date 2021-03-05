@@ -9,7 +9,9 @@
       </ul>
     </nav>
 
-    <router-view></router-view>
+    <transition name="pagina">
+      <router-view></router-view>
+    </transition>
 
   </div>
 </template>
@@ -31,5 +33,13 @@ export default {
     font-family: Helvetica, sans-serif;
     width: 96%;
     margin: 0 auto;
+  }
+  .pagina-enter, 
+  .pagina-leave-active {
+    opacity: 0;
+  }
+  .pagina-enter-active, 
+  .pagina-leave-active {
+    transition: opacity .5s;
   }
 </style>
