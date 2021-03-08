@@ -6,7 +6,29 @@
 
 <script>
 export default {
-    props: ['tipo', 'rotulo', 'confirmacao', 'estilo'],
+    props: {
+        tipo: {
+            required: true,
+            type: String
+        },
+
+        rotulo: {
+            required: true,
+            type: String
+        },
+
+        confirmacao: {
+            required: false,
+            default: false,
+            type: Boolean
+        },
+
+        estilo: {
+            required: false,
+            default: 'padrao',
+            type: String
+        }
+    },
     methods: {
         disparaAcao() {
             if(this.confirmacao) {
