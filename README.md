@@ -1,5 +1,5 @@
-# alurapic
-A Single Page Application (SPA) made with VueJS.
+# animalia
+A gallery with pictures of animals.
 
 ### Run the app
 ```
