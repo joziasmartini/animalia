@@ -1,5 +1,5 @@
 # animalia
-A gallery with pictures of animals.
+A gallery system with management.
 
 ### Technologies
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
