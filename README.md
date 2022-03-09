@@ -1,12 +1,12 @@
 # animalia
 A gallery with pictures of animals.
 
-### Run the app
-```
-npm run dev
-```
+### Technologies
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://sass-lang.com/)
+- [Vue 2](https://vuejs.org/)
 
-### Run the api
-```
-npm start
-```
+### Running
+- Install dependencies with `npm install`
+- Run the application with `npm run dev`
+- Run the API with `npm start`
