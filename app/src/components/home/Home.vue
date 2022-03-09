@@ -8,7 +8,7 @@
           <imagem-responsiva :url="foto.url" :titulo="foto.titulo"/>
           <meu-botao 
           tipo="button" 
-          rotulo="REMOVER" 
+          rotulo="Remover" 
           @botaoAtivado="remove(foto)"
           :confirmacao="true"
           estilo="perigo"
@@ -74,6 +74,8 @@ export default {
   }
   .filtro {
     display: block;
-    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    width: 60%;
   }
 </style>

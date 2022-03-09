@@ -26,7 +26,6 @@ export default {
     border: solid 2px grey;
     display: inline-block;
     margin: 5px;
-    box-shadow: 5px 5px 10px grey;
     width: 200px;
     height: 100%;
     vertical-align: top;
@@ -34,16 +33,13 @@ export default {
   }
   .painel .painel-titulo {
     text-align: center;
-    border: solid 2px;
-    background: lightblue;
+    background: rgb(212, 212, 212);
     margin: 0 0 15px 0;
     padding: 10px;
     text-transform: uppercase;
     cursor: pointer;
     user-select: none;
-  }
-  * {
-    box-shadow: 5px 5px 5px;
+    font-size: 18px;
   }
   .painel-fade-enter, 
   .painel-fade-leave-active {

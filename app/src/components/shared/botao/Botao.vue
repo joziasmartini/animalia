@@ -52,19 +52,22 @@ export default {
 <style scoped>
     .botao {
         display: inline-block;
-        padding: 10px;
+        padding: 10px 20px;
         border-radius: 3px;
         margin: 10px;
         font-size: 1.2em;
+        cursor: pointer;
     }
 
     .botao-perigo {
         background: firebrick;
         color: white;
+        border: none;
     }
 
     .botao-padrao {
         background: darkcyan;
         color: white;
+        border: none;
     }
 </style>
